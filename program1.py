@@ -16,11 +16,11 @@ for x in range(1,9):
     if(x>=3 and x<=4):
         c = a*0.1
         print("Laba bulan ke-",x," : ",c)
-    if(x>5 and x<=7):
+    if(x>=5 and x<=7):
         d = a*0.5
         print("Laba bulan ke-",x," : ",d)
     if(x==8):
-        e = a*0.5
+        e = a*0.3
         print("Laba bulan ke-",x," : ",e)
 total=b+b+c+c+d+d+d+e
-print("\Total : ",total)
+print("\nTotal : ",total)
